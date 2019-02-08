@@ -43,5 +43,16 @@ month=str(input("Hi {0}, what was the name of the month you were born in? ".form
 year=input("And what year were you born in, {0}? ".format(name))
 day=int(input("And the day? "))
 
-if month == todaysmonth and day == todaydate
+month=month.lower()
+todaysmonth=todaysmonth.lower()
+fall=["september","october", "november"]
+winter=["december", "january", "february"]
+spring=["march","april","may"]
+summer=["june", "july", "august"]
+
+if month == todaysmonth and day == todaydate:
     print("Happy Birthday!")
+elif month == "october" and day == 31:
+    print("You were born on Halloween!")
+elif month in fall:
+    print("you are a fall baby!")
