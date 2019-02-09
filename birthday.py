@@ -40,7 +40,7 @@ todaysmonth = month_name[todaymonth]
 
 name=str(input("Hello, what is your name? "))
 month=str(input("Hi {0}, what was the name of the month you were born in? ".format(name)))
-year=input("And what year were you born in, {0}? ".format(name))
+year=int(input("And what year were you born in, {0}? ".format(name)))
 day=int(input("And the day? "))
 
 month=month.lower()
@@ -54,5 +54,40 @@ if month == todaysmonth and day == todaydate:
     print("Happy Birthday!")
 elif month == "october" and day == 31:
     print("You were born on Halloween!")
-elif month in fall:
-    print("you are a fall baby!")
+elif month in fall and year < 1980:
+    print("{0}, you are a fall baby of the stone age.".format(name))
+elif month in fall and year <1990:
+    print("{0}, you are a fall baby of the eighties.".format(name))
+elif month in fall and year <2000:
+    print("{0}, you are a fall baby of the nineties.".format(name))
+elif month in fall and year >=2000:
+    print("{0}, you are a fall baby of the two thousands.".format(name))
+elif month in winter and year < 1980: #winter
+    print("{0}, you are a winter baby of the stone age.".format(name))
+elif month in winter and year <1990:
+    print("{0}, you are a winter baby of the eighties.".format(name))
+elif month in winter and year <2000:
+    print("{0}, you are a winter baby of the nineties.".format(name))
+elif month in winter and year >=2000:
+    print("{0}, you are a winter baby of the two thousands.".format(name))
+elif month in spring and year < 1980: #spring
+    print("{0}, you are a spring baby of the stone age.".format(name))
+elif month in spring and year <1990:
+    print("{0}, you are a spring baby of the eighties.".format(name))
+elif month in spring and year <2000:
+    print("{0}, you are a spring baby of the nineties.".format(name))
+elif month in spring and year >=2000:
+    print("{0}, you are a spring baby of the two thousands.".format(name))
+elif month in summer and year < 1980: #spring
+    print("{0}, you are a summer baby of the stone age.".format(name))
+elif month in summer and year <1990:
+    print("{0}, you are a summer baby of the eighties.".format(name))
+elif month in summer and year <2000:
+    print("{0}, you are a summer baby of the nineties.".format(name))
+elif month in summer and year >=2000:
+    print("{0}, you are a summer baby of the two thousands.".format(name))
+
+
+    
+    
+    
