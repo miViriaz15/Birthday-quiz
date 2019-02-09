@@ -55,7 +55,7 @@ if month == todaysmonth and day == todaydate:
 elif month == "october" and day == 31:
     print("You were born on Halloween!")
 elif month in fall and year < 1980:
-    print("{0}, you are a fall baby of the stone age.".format(name))
+    print("{0}, you are a fall baby of the Stone Age.".format(name))
 elif month in fall and year <1990:
     print("{0}, you are a fall baby of the eighties.".format(name))
 elif month in fall and year <2000:
@@ -63,7 +63,7 @@ elif month in fall and year <2000:
 elif month in fall and year >=2000:
     print("{0}, you are a fall baby of the two thousands.".format(name))
 elif month in winter and year < 1980: #winter
-    print("{0}, you are a winter baby of the stone age.".format(name))
+    print("{0}, you are a winter baby of the Stone Age.".format(name))
 elif month in winter and year <1990:
     print("{0}, you are a winter baby of the eighties.".format(name))
 elif month in winter and year <2000:
@@ -71,7 +71,7 @@ elif month in winter and year <2000:
 elif month in winter and year >=2000:
     print("{0}, you are a winter baby of the two thousands.".format(name))
 elif month in spring and year < 1980: #spring
-    print("{0}, you are a spring baby of the stone age.".format(name))
+    print("{0}, you are a spring baby of the Stone Age.".format(name))
 elif month in spring and year <1990:
     print("{0}, you are a spring baby of the eighties.".format(name))
 elif month in spring and year <2000:
@@ -79,7 +79,7 @@ elif month in spring and year <2000:
 elif month in spring and year >=2000:
     print("{0}, you are a spring baby of the two thousands.".format(name))
 elif month in summer and year < 1980: #spring
-    print("{0}, you are a summer baby of the stone age.".format(name))
+    print("{0}, you are a summer baby of the Stone Age.".format(name))
 elif month in summer and year <1990:
     print("{0}, you are a summer baby of the eighties.".format(name))
 elif month in summer and year <2000:
