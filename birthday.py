@@ -78,7 +78,7 @@ elif month in spring and year <2000:
     print("{0}, you are a spring baby of the nineties.".format(name))
 elif month in spring and year >=2000:
     print("{0}, you are a spring baby of the two thousands.".format(name))
-elif month in summer and year < 1980: #spring
+elif month in summer and year < 1980: #summer
     print("{0}, you are a summer baby of the Stone Age.".format(name))
 elif month in summer and year <1990:
     print("{0}, you are a summer baby of the eighties.".format(name))
