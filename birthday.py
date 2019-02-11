@@ -51,7 +51,7 @@ spring=["march","april","may"]
 summer=["june", "july", "august"]
 
 if month == todaysmonth and day == todaydate:
-    print("Happy Birthday!")
+    print("Happy birthday!")
 elif month == "october" and day == 31:
     print("You were born on Halloween!")
 elif month in fall and year < 1980:
